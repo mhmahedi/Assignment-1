@@ -1,17 +1,18 @@
 /* Banner style part */
 .header {
     background-image: url(../images/banner/banner1.png);
-    url(flat-lay-abstract-composition-with-innovation-elements.jpg);
+    
     width: 100%;
-    height: 600px;
-    background-size: cover;
+    height: 800px;
+    /* background-size: cover; */
    background-repeat: no-repeat;
     
 }
 .Banner{
     display: flex;
     text-align: right;
-    padding: 150px 530px 364px 645px;
+    padding: 150px 530px 0 645px; 
+    margin-left: 150px;
    
   
 }
@@ -21,7 +22,7 @@
     font-size: 50px;
     font-weight: 700;
      text-align: right;
-     margin-right: 825px;
+     margin-right: 525px;
     
 }
 .Banner-sub-title{
@@ -29,7 +30,7 @@
     text-align: right;
     font-weight: 400;
    font-size: 16px;
-   margin-right: 825px;
+   margin-right: 525px;
 }
 .Banner-btn{
     color: #FFFFFF;
@@ -40,6 +41,53 @@
    top: 578px;
    border: 0;
    background-color: crimson;
-   margin-right: 825px;
+   margin-right: 525px;
 }
+/* Main section styles */
+.failure{
+   margin-top: 0;
+   padding-top: 0;
+   padding: 100px;
+   margin-left: 50px;
+}
+.failure-title{
+    display: flex;
+    margin: 130px 20px 300px; 
+    left: 900px;
 
+
+}
+.failure-main-block{
+width: 416px;
+height: 400px;
+left: 862px;
+top: 1178px;
+}
+.failure-main-block h3{
+    font-size: 50px;
+    font-weight: 700px;
+
+
+}
+.failure-main-block p {
+    color: #444343;
+}
+.failure-main-block 
+      {
+        margin-top: 230px;
+        margin-left: 100px;
+    }
+    input[type=checkbox]+label {
+        display: block;
+    
+    }
+    
+    input[type=checkbox] {
+        display: none;
+    
+    }
+    
+    input[type=checkbox]+label::before {
+        content: "\2714";
+        color: green;
+    }
