@@ -8,6 +8,9 @@
    background-repeat: no-repeat;
     
 }
+p{
+    color: #737272;
+}
 .Banner{
     display: flex;
     text-align: right;
@@ -47,15 +50,12 @@
 .failure{
    margin-top: 0;
    padding-top: 0;
-   padding: 100px;
    margin-left: 50px;
 }
 .failure-title{
     display: flex;
-    margin: 130px 20px 300px; 
-    left: 900px;
-
-
+    margin: 15px 20px 20px 20px;
+    
 }
 .failure-main-block{
 width: 416px;
@@ -91,3 +91,16 @@ top: 1178px;
         content: "\2714";
         color: green;
     }
+    h2{
+        text-align: center;
+    }
+    .plan-content{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        
+    }
+
+        
+
+    
