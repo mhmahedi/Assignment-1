@@ -60,22 +60,23 @@ p{
 .failure-main-block{
 width: 416px;
 height: 400px;
-left: 862px;
+/* margin-top: 230px; */
+ margin-left: 100px;
+/* left: 862px; */
 top: 1178px;
 }
-.failure-main-block h3{
+.failure-sub-title{
     font-size: 50px;
     font-weight: 700px;
 
 
 }
-.failure-main-block p {
+.description {
     color: #444343;
 }
 .failure-main-block 
       {
-        margin-top: 230px;
-        margin-left: 100px;
+        
     }
     input[type=checkbox]+label {
         display: block;
